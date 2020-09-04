@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Color World</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="icon" href="logo.jpg" type="image/icon type">
+</head>
+<body>
+	<div class="w3-sidebar w3-bar-block w3-white w3-animate-right" style="width:200px;right:0;display:none;z-index: 4;" id="mySidebar">
+		<button class="w3-bar-item w3-button" onclick="w3_close()">Close</button>
+		<a href="#" class="w3-bar-item w3-button" onclick="w3_close()">Home</a>
+		<!-- Add you email address in place of '#'-->
+		<a href="mailto:#?subject = Subject&body = BODY" class="w3-bar-item w3-button" onclick="w3_close()">Order</a>
+	</div>
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+	<div class="header">
+		<nav>
+			<div class="logo">
+				<input type="checkbox" id="check">
+				<label for="check" class="checkbtn" onclick="w3_open()">
+					<i class="fa fa-bars" onclick="w3_close()"></i>
+				</label>			
+				<img src="logo.jpg" class="logo-image">
+				<div class="logo-text">
+					Color World
+				</div>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<!-- Add you email address in place of '#'-->
+					<li><a href="mailto:#?subject = Subject&body = BODY">Order</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="page-content">
+		<div class="first" id="first">
+			<div class="introduction">
+				<h1>Color World</h1>
+				The birthplace of great pictures and Portraits.
+			</div>
+			<div class="introduction-btn">
+				<button>
+				<!-- Add you email address in place of '#'-->
+				<a href = "mailto:#?subject = Subject&body = BODY" style="text-decoration: none;">Get Yours Now</a></button>
+			</div>
+		</div>
+		<div class="middle" id="middle">
+			<div class="row one">
+				<div class="image-section">
+					<img src="https://picsum.photos/id/1003/250/250" height="250px" width="250px">
+				</div>
+				<div class="text-section">
+					<h4 class="same">Portrait</h4>
+					<p>A portrait is a painting, photograph, or other artistic representation of a person, in which the face and its expression is predominant. The intent is to display the likeness, personality, and the mood of the person.</p>
+					<span>*Custom Gift Wrapping Available</span>
+					<button class="get-btn one">
+					<!-- Add you email address in place of '#'-->
+					<a href = "mailto:#?subject = Subject&body = BODY" style="text-decoration: none;">Get One Now</a></button>
+				</div>
+			</div>
+			<div class="row two">
+				<div class="image-section">
+					<img src="https://picsum.photos/id/1004/250/250" height="250px" width="250px">
+				</div>
+				<div class="text-section">
+					<h4 class="different">Painting</h4>
+					<p>Painting is the practice of applying paint, pigment, color or other medium to a solid surface (called the "matrix" or "support").In art, the term painting describes both the act and the result of the action (the final work is called "a painting"). The support for paintings includes such surfaces as walls, paper, canvas, etc.</p>
+					<span>*Custom Gift Wrapping Available</span>
+					<button class="get-btn one">
+					<!-- Add you email address in place of '#'-->
+					<a href = "mailto:#?subject = Subject&body = BODY" style="text-decoration: none;">Get One Now</a></button>
+				</div>
+			</div>
+			<div class="row three">
+				<div class="image-section">
+					<img src="https://picsum.photos/id/1005/250/250" height="250px" width="250px">
+				</div>
+				<div class="text-section">
+					<h4 class="same">Scrap Files</h4>
+					<p>Scrapbooking is a method of preserving, presenting, and arranging personal and family history in the form of a book, box, or card. Typical memorabilia include photographs, printed media, and artwork. Scrapbook albums are often decorated and frequently contain extensive journal entries or written descriptions. Scrapbooking started in the United Kingdom in the nineteenth century.</p>
+					<span>*Custom Gift Wrapping Available</span>
+					<button class="get-btn one">
+					<!-- Add you email address in place of '#'-->
+					<a href = "mailto:#?subject = Subject&body = BODY" style="text-decoration: none;">Get One Now</a></button>
+				</div>
+			</div>
+		</div>
+		<div class="middle-2">
+			<h1 class="h1_middle2">Some of our projects</h1>
+			<div class="grid">
+				<img src="https://picsum.photos/id/1/250/250">
+				<img src="https://picsum.photos/id/10/250/250">
+				<img src="https://picsum.photos/id/100/250/250">
+				<img src="https://picsum.photos/id/1000/250/250">
+				<img src="https://picsum.photos/id/1011/250/250">
+				<img src="https://picsum.photos/id/1015/250/250">
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="customer-count">
+				<h1>Our Achievements</h1>
+				<div class="count-row">
+					<div class="column a">
+						<span>
+							<label>73</label>
+							<h3>Happy Customer</h3>
+						</span>
+					</div>
+					<div class="column b">
+						<span>
+							<label>96</label>
+							<h3>Projects Completed</h3>
+						</span>
+					</div>
+					<div class="column c">
+						<span>
+							<label>7</label>
+							<h3>Countries Shipped</h3>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials">
+				<h1>What Customers Say About Us</h1>
+				<div class="testimonials-row">
+					<div class="column2 i">
+						<div class="rating">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="test-text">Remark from your Happy Customer.</div>
+					</div>
+					<div class="column2 ii">
+						<div class="rating">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+						</div>
+						<div class="test-text">Remark from your Happy Customer.</div>
+					</div>
+					<div class="column2 iii">
+						<div class="rating">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="test-text">Remark from your Happy Customer.</div>
+					</div>
+				</div>
+			</div>
+			<div class="order-prompt">
+				<div class="order">
+					<h1>Order Now</h1>
+					<div class="order-btn">
+						<button class="order-btn">
+						<!-- Add you email address in place of '#'-->
+						<a href = "mailto:#?subject = Subject&body = BODY" style="text-decoration: none;">Order Now</a></button>
+					</div>
+				</div>
+				<div class="follow">
+					<h3>Follow Us On :</h3>
+					<ul>
+						<li><!-- Add Your Instagram Link in palce of '#'--><a href="#" style="text-decoration: none;"> <span style="color:  #4267B2;"><i class="fa fa-instagram"></i></span> Instagram</a></li>
+						<li><!-- Add Your Facebook Link in palce of '#'--><a href="#" style="text-decoration: none;"> <span style="color:  #4267B2;"><i class="fa fa-facebook"></i></span> Facebook</a></li>
+						<li><!-- Add Your Linkedin Link in palce of '#'--><a href="#" style="text-decoration: none;"> <span style="color:  #4267B2;"><i class="fa fa-linkedin"></i></span> Linkedin</a></li>
+						<li><!-- Add Your Youtube Link in palce of '#'--><a href="#" style="text-decoration: none;"> <span style="color:  #4267B2;"><i class="fa fa-youtube"></i></span> Youtube</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="credits">
+				<div class="footer">
+					Website Manager: <a href="https://www.instagram.com/satvik_virmani/">Satvik Virmani</a>
+					<br>
+					Photos by: <a href="http://www.freepik.com">Designed by Harryarts, Kjpargeter,Freepik / Freepik</a>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

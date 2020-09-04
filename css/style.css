@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-image: linear-gradient(292.9deg, rgba(254, 105, 241, 1) 28.8%, rgba(182, 44, 248, 1) 70.4%);
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.logo-image {
+    float: left;
+    margin: 0;
+    width: 75px;
+    height: 75%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.logo-text {
+    float: left;
+    padding: 0 30px;
+    font-size: 42px;
+    line-height: 75px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navigation {
+    float: right;
+    margin: 0;
+    padding: 0 auto;
+    width: 50%;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    margin: 0;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.checkbtn {
+    font-size: 28px;
+    line-height: 75px;
+    float: right;
+    color: #000;
+    margin-right: 15px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.page-content {
+    margin-top: 75px;
+}
+
+.first {
+    margin: 75px auto 0 auto;
+    width: 100%;
+    height: 600px;
+    background: #eee;
+    padding-top: 175px;
+    background: url(https://ik.imagekit.io/garimaworks999/bg_GPbBJ89vw0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introduction {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    font-size: 28px;
+    font-family: Roboto, sans-serif;
+}
+
+.introduction h1 {
+    font-size: 72px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.introduction-btn {
+    margin: 100px auto;
+    width: 200px;
+    height: 50px;
+}
+
+.introduction-btn button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Open Sans', tahoma;
+    color: #fff;
+    background-image: linear-gradient(292.9deg, rgba(254, 105, 241, 1) 28.8%, rgba(182, 44, 248, 1) 70.4%);
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.introduction-btn button:active {
+    transform: scale(0.95);
+}
+
+.middle {
+    width: 100%;
+}
+
+.row {
+    margin: 80px auto;
+    width: 80%;
+    height: 250px;
+}
+
+.image-section {
+    width: 30%;
+    float: left;
+}
+
+.text-section {
+    float: right;
+    width: 65%;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    padding-right: 30px;
+}
+
+.two .image-section {
+    float: right;
+}
+
+.two .text-section {
+    float: left;
+}
+
+.same {
+    text-align: right;
+    margin-right: 75px;
+}
+
+.different {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.same,
+.different {
+    font-size: 34px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text-section p {
+    font-size: 18px;
+}
+
+.text-section span {
+    margin-top: 40px;
+    float: left;
+    font-size: 12px;
+}
+
+.get-btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 40px;
+    color: #fff;
+    background-image: linear-gradient(292.9deg, rgba(254, 105, 241, 1) 28.8%, rgba(182, 44, 248, 1) 70.4%);
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Open Sans', tahoma;
+}
+
+.get-btn:active {
+    transform: scale(0.95);
+}
+
+.middle-2 {
+    width: 100%;
+    background: url(https://ik.imagekit.io/garimaworks999/bg1_3J0jCP-fw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1_middle2 {
+    font-size: 42px;
+    margin: 25px auto;
+    text-align: center;
+    font-family: 'Open Sans', tahoma;
+}
+
+.grid {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+}
+
+.customer-count {
+    width: 100%;
+    background: url(https://ik.imagekit.io/garimaworks999/bg2_3ZS3CK5fGQ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.customer-count h1 {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Open Sans', tahoma;
+}
+
+.customer-count h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 8px;
+    border-bottom: 2px solid black;
+}
+
+.count-row {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: auto auto auto;
+}
+
+.column {
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.a {
+    color: #ffffff;
+}
+
+.b {
+    color: #3881ff;
+}
+
+.c {
+    color: #2f77ff;
+}
+
+.column label {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column h3 {
+    font-weight: 400;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.testmonials {
+    width: 100%;
+}
+
+.testimonials h1 {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Open Sans', tahoma;
+}
+
+.testimonials h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 8px;
+    border-bottom: 2px solid black;
+}
+
+.testimonials-row {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: auto auto auto;
+}
+
+.column2 {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.rating {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.checked {
+    color: #FFA500;
+}
+
+.order-prompt {
+    width: 100%;
+}
+
+.follow {
+    margin: 50px auto;
+}
+
+.follow h3 {
+    font-size: 32px;
+    font-family: 'Open Sans', tahoma;
+}
+
+.follow {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.follow ul li {
+    margin: 10px auto;
+}
+
+.order-btn {
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+}
+
+.order-prompt {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.order-prompt h1 {
+    font-size: 42px;
+    font-family: 'Open Sans', tahoma;
+}
+
+.order-btn button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Open Sans', tahoma;
+    color: #fff;
+    background-image: linear-gradient(292.9deg, rgba(254, 105, 241, 1) 28.8%, rgba(182, 44, 248, 1) 70.4%);
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.order-btn button:active {
+    transform: scale(0.95);
+}
+
+.credits {
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background: #eee;
+}
+
+.middle-2 h1:after,
+.testimonials h1:after,
+.follow h3:after,
+.order-prompt h1:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 8px;
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        width: 650px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+        grid-row-gap: 50px;
+    }
+
+    .same {
+        font-size: 22px;
+    }
+
+    .different {
+        font-size: 22px;
+    }
+
+    .text-section p {
+        font-size: 18px;
+    }
+
+    .text-section span {
+        font-size: 10px;
+    }
+
+    .rating {
+        top: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .row {
+        margin: 40px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .image-section {
+        margin: 0 auto;
+        width: 250px;
+        float: none;
+    }
+
+    .text-section {
+        width: 90%;
+        padding-right: 0;
+        float: none;
+    }
+
+    .two .image-section {
+        float: none;
+    }
+
+    .two .text-section {
+        float: none;
+    }
+
+    .same {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .different {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .text-section p {
+        font-size: 18px;
+    }
+
+    .text-section span {
+        float: none;
+        font-size: 12px;
+    }
+
+    .get-btn {
+        float: right;
+    }
+
+    .rating {
+        top: 40%;
+        font-size: 20px;
+    }
+
+    .test-text {
+        top: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        height: 75px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        float: none;
+        width: 100%;
+    }
+
+    .logo-text {
+        font-size: 30px;
+        padding: 0 20px;
+    }
+
+    .checkbtn {
+        display: inline-block;
+        line-height: 75px;
+    }
+
+    .first {
+        height: 500px;
+    }
+
+    .introduction {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .introduction h1 {
+        font-size: 60px;
+    }
+
+    .introduction-btn {
+        margin: 50px auto;
+        width: 150px;
+        height: 60px;
+    }
+
+    .introduction-btn button {
+        font-size: 16px;
+    }
+
+    .row {
+        margin: 40px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .image-section {
+        margin: 0 auto;
+        width: 250px;
+        float: none;
+    }
+
+    .text-section {
+        width: 90%;
+        padding-right: 0;
+        float: none;
+    }
+
+    .two .image-section {
+        float: none;
+    }
+
+    .two .text-section {
+        float: none;
+    }
+
+    .same {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .different {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .text-section p {
+        font-size: 14px;
+    }
+
+    .text-section span {
+        float: none;
+        font-size: 12px;
+    }
+
+    .get-btn {
+        float: right;
+    }
+
+    .middle-2 h1 {
+        font-size: 30px;
+    }
+
+    .grid {
+        width: 300px;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-row-gap: 20px;
+    }
+
+    .middle-2 p {
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .visit-btn {
+        width: 100px;
+        height: 30px;
+    }
+
+    .visit-btn button {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        font-family: 'Open Sans', tahoma;
+        color: #fff;
+        background-image: linear-gradient(292.9deg, rgba(254, 105, 241, 1) 28.8%, rgba(182, 44, 248, 1) 70.4%);
+        outline: none;
+        border: 1px solid #000;
+        border-radius: 15px;
+    }
+
+    .customer-count h1 {
+        font-size: 22px;
+    }
+
+    .count-row {
+        height: 100%;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+    }
+
+    .a,
+    .b,
+    .c {
+        font-weight: 500px;
+        color: #000;
+    }
+
+    .column {
+        height: 100px;
+        text-align: center;
+        position: relative;
+    }
+
+    .column label {
+        font-size: 22px;
+    }
+
+    .column h3 {
+        top: 80%;
+        font-size: 16px;
+    }
+
+    .testmonials {
+        width: 100%;
+    }
+
+    .testimonials h1 {
+        font-size: 24px;
+    }
+
+    .testimonials-row {
+        height: 100%;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+    }
+
+    .column2 {
+        height: 100px;
+    }
+
+    .rating {
+        font-size: 16px;
+    }
+
+    .test-text {
+        top: 80%;
+        font-size: 12px;
+    }
+
+    .order-prompt {
+        margin: 25px 0;
+        text-align: center;
+    }
+
+    .order-prompt h1 {
+        font-size: 32px;
+    }
+}
