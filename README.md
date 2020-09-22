@@ -3,7 +3,7 @@ It a website for artists and painting enthusiasts.
 
 ![Screenshot_1](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme_r7mDX7FTWt.png)
 ![Screenshot_2](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__1__pQJ7p7UNa00L.svg)
-![Screenshot_3](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__7__VRFUXvacyc31.png)
+![Screenshot_3](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__2__eQ-lpRhhQbxF.png)
 
 **Feel free to Show the code
 But don't forget to attribute**
