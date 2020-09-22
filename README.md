@@ -1,7 +1,7 @@
 # Color-World
 It a website for artists and painting enthusiasts.
 
-![Screenshot_1](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__2__UlDklaT5t.png)
+![Screenshot_1](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme_r7mDX7FTWt.png)
 ![Screenshot_2](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__1__pQJ7p7UNa00L.svg)
 ![Screenshot_3](https://ik.imagekit.io/garimaworks999/Github/Color-World/Light_Theme__7__VRFUXvacyc31.png)
 
